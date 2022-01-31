@@ -69,7 +69,7 @@ export const config: WebdriverIO.Config = {
                 '--disable-gpu',
                 '--no-sandbox',
                 '--disable-infobars',
-                // '--headless',
+                '--headless',
                 '--disable-features=VizDisplayCompositor',
                 '--window-size=1920,1080',
                 // '--remote-debugging-port=9222', 
